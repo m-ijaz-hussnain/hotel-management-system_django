@@ -125,3 +125,5 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+AUTH_USER_MODEL = 'accounts.User'
